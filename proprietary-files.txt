@@ -1,21 +1,21 @@
 # bin
-bin/at_distributor
+#bin/at_distributor
 bin/mfgloader
 #bin/gpsd
 bin/sprdSleepLog
 #bin/modem_control
-bin/modemd
+#bin/modemd
 #bin/download
 bin/bih_config.sh
 bin/bootchecker
-bin/ext_symlink.sh
+#bin/ext_symlink.sh
 bin/ext_data.sh
 bin/ext_kill.sh
 bin/inputfreq.sh
 bin/recoveryfreq.sh
-bin/IPSecService
-bin/ddexe
-bin/connfwexe
+#bin/IPSecService
+#bin/ddexe
+#bin/connfwexe
 bin/wlandutservice
 bin/scs
 #bin/gps.cer
@@ -35,11 +35,11 @@ bin/scs
 #bin/dhcp6c
 #bin/iwnpi
 #bin/rild
-bin/smdexe
-bin/macloader
+#bin/smdexe
+#bin/macloader
 
 # etc
-etc/plmn_delta.bin
+#etc/plmn_delta.bin
 etc/plmn_se13.bin
 etc/connectivity_calibration.ini
 etc/connectivity_configure.ini

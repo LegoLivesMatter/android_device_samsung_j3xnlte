@@ -19,8 +19,8 @@
 -include device/samsung/sharkls-common/BoardConfigCommon.mk
 
 # kernel
-TARGET_KERNEL_CONFIG := j3xnlte_defconfig
-#TARGET_KERNEL_CONFIG := j3xnlte_permissive_defconfig
+#TARGET_KERNEL_CONFIG := j3xnlte_defconfig
+TARGET_KERNEL_CONFIG := halium_j3xnlte_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_j3xnlte

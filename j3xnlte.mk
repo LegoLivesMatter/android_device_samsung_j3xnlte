@@ -42,5 +42,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
+### Ubuntu Touch ###
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/ubuntu/70-android.rules:system/halium/lib/udev/rules.d/70-android.rules \
+	$(LOCAL_PATH)/ubuntu/touch.pa:system/halium/etc/pulse.pa
+### End Ubuntu Touch ###
+
 # Inherit from sharkls-common
 $(call inherit-product, device/samsung/sharkls-common/sharkls.mk)
